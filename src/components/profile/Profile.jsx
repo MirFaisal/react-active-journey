@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import avatar from "../../assets/avatar/mir.JPG";
+import avatar from "../../assets/avatar/profile1.jpg";
 import "./Profile.css";
 const Profile = (props) => {
   const { totalTime, addBreakTime, breaktiome } = props;
