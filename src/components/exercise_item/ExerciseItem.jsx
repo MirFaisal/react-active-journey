@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../assets/";
 import "./ExerciseItem.css";
 
 const ExerciseItem = ({ item, addToList }) => {

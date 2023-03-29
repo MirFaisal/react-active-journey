@@ -1,9 +1,9 @@
-
 import { faLocation } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import avatar from "../../assets/avatar/mir.JPG";
 import "./Profile.css";
 const Profile = (props) => {
   const { totalTime, addBreakTime, breaktiome } = props;
@@ -11,7 +11,7 @@ const Profile = (props) => {
   return (
     <>
       <div className="about">
-        <img src="../../assets/avatar/mir.JPG" alt="" />
+        <img src={avatar} alt="" />
         <div className="genarel-info">
           <h3>Mir Faisal</h3>
           <div className="address">
