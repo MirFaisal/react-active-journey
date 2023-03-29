@@ -63,3 +63,6 @@
   background-color: #e9f1f9;
   border-radius: 10px;
 }
+.active {
+  background: #8dc0f3 !important;
+}

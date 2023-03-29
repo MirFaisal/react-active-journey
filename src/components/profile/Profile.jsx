@@ -4,7 +4,10 @@ import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import avatar from "../../assets/avatar/profile1.jpg";
+
+import { changeButtonstyle } from "../../utility/buttonStyle";
 import "./Profile.css";
+
 const Profile = (props) => {
   const { totalTime, addBreakTime, breaktiome } = props;
   const notify = () => toast(`Your Progress is Amazing 👍`);
@@ -41,8 +44,14 @@ const Profile = (props) => {
         </div>
       </div>
       <h2 className="title">Add A Break</h2>
-      <div className="break-time" onClick={(e) => addBreakTime(e)}>
-        <div className="session">10</div>
+      <div
+        className="break-time"
+        onClick={(e) => {
+          addBreakTime(e);
+          changeButtonstyle(e);
+        }}
+      >
+        <div className="session active">10</div>
         <div className="session">30</div>
         <div className="session">40</div>
         <div className="session">60</div>

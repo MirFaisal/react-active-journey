@@ -1,5 +1,5 @@
 import React from "react";
-
+import { addtolistButtonStyle } from "../../utility/buttonStyle";
 import "./ExerciseItem.css";
 
 const ExerciseItem = ({ item, addToList }) => {
@@ -17,8 +17,9 @@ const ExerciseItem = ({ item, addToList }) => {
           <p className="time">Time required: {time}s </p>
         </div>
         <button
-          onClick={() => {
+          onClick={(e) => {
             addToList(item);
+            addtolistButtonStyle(e);
           }}
           className="primary-btn"
           id="primary-btn"
