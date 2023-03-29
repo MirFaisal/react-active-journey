@@ -1,0 +1,24 @@
+.card {
+  padding: 15px;
+  width: 300px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 5px 0px 190px -5px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+.card .text .title {
+  padding-block: 10px;
+}
+.card .text .description {
+  padding-block: 10px;
+}
+.primary-btn {
+  width: 100%;
+  margin-block-start: 20px;
+  border-radius: 10px;
+  background: #6c6cef;
+  color: #fff;
+}

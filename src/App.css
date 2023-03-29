@@ -1,0 +1,19 @@
+#main .container {
+  width: 1320px;
+  margin-inline: auto;
+}
+/* main section style start */
+#main .text {
+  padding-block-start: 80px;
+  padding-block-end: 20px;
+  display: flex;
+  align-items: baseline;
+  color: #6c6cef;
+}
+#main .text .hero-text {
+  font-size: 60px;
+}
+#main .text .faWalking {
+  font-size: 60px;
+}
+/* main section style end */

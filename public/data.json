@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Walking.",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 30,
+    "age": "22",
+    "image": "../src/assets/Walking.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dancing.",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 20,
+    "age": "23",
+    "image": "../src/assets/Dancing.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Swimming.",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 35,
+    "age": "25",
+    "image": "../src/assets/Swimming.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Water aerobics.",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 20,
+    "age": "23",
+    "image": "../src/assets/Water aerobics.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Jogging and running.",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 40,
+    "age": "22",
+    "image": "../src/assets/Jogging and running.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Aerobic exercise classes.",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 30,
+    "age": "22",
+    "image": "../src/assets/Aerobic exercise classes.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Bicycle riding",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 10,
+    "age": "21",
+    "image": "../src/assets/Bicycle riding.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Stretching",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 15,
+    "age": "22",
+    "image": "../src/assets/Stretching.jpg"
+  },
+  {
+    "id": 9,
+    "name": "GPilates",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 25,
+    "age": "22",
+    "image": "../src/assets/GPilates.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Yoga",
+    "info": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "time": 50,
+    "age": "22",
+    "image": "../src/assets/Yoga.jpg"
+  }
+]

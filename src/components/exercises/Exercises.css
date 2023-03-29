@@ -1,0 +1,28 @@
+#exercises .container {
+  width: 1320px;
+  margin-inline: auto;
+}
+#exercises .text {
+  padding-block-end: 20px;
+}
+#exercise-items {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+#exercise-items .wrapper {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.profile {
+  padding-block-start: 30px;
+  padding-inline: 40px;
+  position: sticky;
+  top: 0;
+  height: 900px;
+  width: 400px;
+  background-color: #fff;
+}

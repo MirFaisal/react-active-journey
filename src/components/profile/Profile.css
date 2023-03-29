@@ -1,0 +1,65 @@
+.about {
+  display: flex;
+  align-items: center;
+  padding-block-end: 30px;
+}
+.about img {
+  margin-inline-end: 10px;
+  border-radius: 5px;
+}
+.about .genarel-info .address {
+  display: flex;
+}
+.body-info {
+  padding-block: 20px;
+  padding-inline: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9f1f9;
+  border-radius: 10px;
+}
+.body-info .weight span,
+.body-info .Age span {
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  padding-block-end: 2px;
+}
+.title {
+  padding-block-start: 45px;
+  padding-block-end: 15px;
+}
+.break-time {
+  padding-inline: 15px;
+  padding-block: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9f1f9;
+  border-radius: 10px;
+}
+.break-time .session {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  color: #000000;
+  /* background-color: #6c6cef; */
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.break-time .session::after {
+  content: "s";
+}
+.total-exercise-time,
+.total-break-time {
+  margin-block-end: 20px;
+  padding-inline: 15px;
+  padding-block: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9f1f9;
+  border-radius: 10px;
+}
