@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./ExerciseItem.css";
 
 const ExerciseItem = ({ item, addToList }) => {
