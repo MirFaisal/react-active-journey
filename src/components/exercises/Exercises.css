@@ -18,11 +18,12 @@
   gap: 20px;
 }
 .profile {
-  padding-block-start: 30px;
+  padding-block-start: 130px;
   padding-inline: 40px;
-  position: sticky;
+  position: fixed;
   top: 0;
-  height: 900px;
+  right: 0;
+  height: 100vh;
   width: 400px;
   background-color: #fff;
 }

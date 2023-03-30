@@ -51,7 +51,7 @@ const Profile = (props) => {
           changeButtonstyle(e);
         }}
       >
-        <div className="session active">10</div>
+        <div className="session">10</div>
         <div className="session">30</div>
         <div className="session">40</div>
         <div className="session">60</div>

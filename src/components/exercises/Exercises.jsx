@@ -27,8 +27,10 @@ const Exercises = () => {
   // event handeling for break Time.
   const addBreakTime = (e) => {
     const secoundElement = e.target.innerText;
-    setBreaktime(secoundElement);
-    addToLocalDb(secoundElement);
+    if (e.target.classList.contains("session")) {
+      setBreaktime(secoundElement);
+      addToLocalDb(secoundElement);
+    }
   };
 
   useEffect(() => {
